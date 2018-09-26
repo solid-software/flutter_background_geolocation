@@ -19,7 +19,7 @@ The most sophisticated background location-tracking &amp; geofencing module with
 
   s.libraries           = 'sqlite3', 'z'
   s.vendored_frameworks = ['TSLocationManager.framework', 'TSBackgroundFetch.framework']
-
+  s.static_framework = true
   s.ios.deployment_target = '8.0'
 end
 
